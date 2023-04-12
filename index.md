@@ -2,7 +2,6 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
-<title>untitled</title>
 <link rel="stylesheet" href="" />
 </head>
 <body>
