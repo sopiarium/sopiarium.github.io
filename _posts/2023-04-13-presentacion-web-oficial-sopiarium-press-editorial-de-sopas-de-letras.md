@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sopiarium Press"
+title:  "Nueva web de Sopiarium Press"
 date:   2023-04-13 08:36:46 
 categories: sopiarium
 ---
