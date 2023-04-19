@@ -1,0 +1,9 @@
+---
+layout: post
+title: "test"
+date: 2023-04-19 07:17:03 +0200
+---
+
+![Descripción de la imagen]({{ '/assets/images/logo_sopiarium_web.jpeg' | relative_url }})
+
+que bien, wia ya esta bien

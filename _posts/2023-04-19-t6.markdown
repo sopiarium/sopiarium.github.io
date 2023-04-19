@@ -1,0 +1,8 @@
+---
+layout: post
+title: "t6"
+date: 2023-04-19 10:53:54 +0200
+---
+
+contenido del libro t6 
+[![Descripción de la imagen]({{ '/assets/images/logo_sopiarium_web.jpeg' | absolute_url }}){: .image-link }](https://www.sopiarium.com)

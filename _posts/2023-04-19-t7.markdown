@@ -1,0 +1,35 @@
+---
+layout: post
+title: "t7"
+date: 2023-04-19 10:55:55 +0200
+---
+
+Sí, conozco las reglas del juego Picross, también conocido como Hanjie, Griddlers o Nonograms. Es un juego de lógica basado en cuadrículas en el que el objetivo es revelar una imagen oculta siguiendo las pistas numéricas proporcionadas. A continuación, se detallan las reglas básicas del juego:
+
+El juego se juega en una cuadrícula, que puede variar en tamaño (por ejemplo, 5x5, 10x10, 20x20, etc.). Cada cuadrícula está compuesta por celdas que pueden ser pintadas de negro o dejadas en blanco.
+
+Las pistas numéricas se proporcionan en las filas y columnas alrededor de la cuadrícula. Estos números indican cuántos bloques consecutivos de celdas negras hay en esa fila o columna específica. Por ejemplo, una pista "3 2" en una fila indica que hay un bloque de 3 celdas negras seguido de un bloque de 2 celdas negras en esa fila, separados por al menos una celda blanca.
+
+El objetivo del juego es utilizar las pistas para determinar qué celdas deben ser pintadas de negro y cuáles deben dejarse en blanco. Al hacerlo correctamente, se revelará una imagen oculta en la cuadrícula.
+
+Para resolver el juego, se requiere lógica y deducción. No se necesita adivinar, y un Picross bien diseñado tendrá una solución única.
+
+A medida que resuelvas los Nonograms, podrás desarrollar estrategias y técnicas para abordar diferentes patrones y pistas. Este juego es popular tanto en papel como en formato digital, y hay disponibles muchos rompecabezas de diferentes niveles de dificultad y tamaños de cuadrícula.
+
+check_unique_solution(row_clues, col_clues)) {
+        generate_solution(grid);
+        calculate_clues(grid, row_clues, col_clues);
+    }
+
+    print_nonogram(row_clues, col_clues);
+
+    return 0;
+}
+Implementar las funciones auxiliares:
+c
+Copy code
+void generate_solution(int grid[ROWS][COLS]) {
+    // Generar una solución aleatoria o dibujar una imagen en la cuadrícula.
+    // Asegúrese de que las áreas en
+[![Descripción de la imagen]({{ '/assets/images/logo_sopiarium_web.jpeg' | absolute_url }}){: .image-link }](https://www.sopiarium.com)
+<br>
