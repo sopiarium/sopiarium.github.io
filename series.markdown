@@ -26,8 +26,15 @@ Serie especialmente diseñada para adultos y personas mayores con problemas de v
 **Libros disponibles en esta serie:**
 - Libro 1: [Ver en Amazon](https://www.amazon.es/dp/B08B32KJ6M)
 - Libro 2: [Ver en Amazon](https://www.amazon.es/dp/B08B379D3D)
-- Libro 9: [Ver en Amazon](https://www.amazon.es/dp/[pendiente])
-- ... y muchos más
+- Libro 3: [Ver en Amazon](https://www.amazon.es/dp/B0C1J5P856)
+- Libro 4: [Ver en Amazon](https://www.amazon.es/dp/B0C1J9CZ35)
+- Libro 5: [Ver en Amazon](https://www.amazon.es/dp/B0C2SDCP6Q)
+- Libro 6: [Ver en Amazon](https://www.amazon.es/dp/B0C2S4MWLD)
+- Libro 7: [Ver en Amazon](https://www.amazon.es/dp/B0C2S59PCB)
+- Libro 8: [Ver en Amazon](https://www.amazon.es/dp/B0C2S47JZR)
+- Libro 9: [Ver en Amazon](https://www.amazon.es/dp/B0C2ST19DM)
+- Libro 10: [Ver en Amazon](https://www.amazon.es/dp/B0C2SG6862)
+- ... y muchos más volúmenes disponibles
 
 *Esta serie cuenta con múltiples volúmenes para horas interminables de entretenimiento.*
 
