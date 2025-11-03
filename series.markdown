@@ -40,11 +40,11 @@ Serie especialmente diseñada para adultos y personas mayores con problemas de v
 
 ---
 
-## Sopas de Letras para Adultos - Edición Mensual
+## 200 Sopas de Letras - Edición Mensual
 
 **¡Tu ritual mensual de entretenimiento! 📅**
 
-¿Recuerdas cuando ibas al kiosco y comprabas tu libro de pasatiempos favorito? Revive esa experiencia con nuestra colección mensual. Cada mes, un nuevo volumen con 200 sopas de letras frescas y temáticas.
+¿Recuerdas cuando ibas al kiosco y comprabas tu libro de pasatiempos favorito? Revive esa experiencia con nuestra colección mensual **200 Sopas de Letras**. Cada mes, un nuevo volumen con 200 sopas de letras frescas y temáticas.
 
 **Características:**
 - 200 sopas de letras por edición
