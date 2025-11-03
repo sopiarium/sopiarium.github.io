@@ -57,7 +57,10 @@ Serie especialmente diseñada para adultos y personas mayores con problemas de v
 **Ediciones disponibles:**
 - **Febrero 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0DYVFP5P8) - ¡Ya disponible!
 - **Marzo 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0DZBVCCWR) - ¡Ya disponible!
-- **Abril 2025**: Próximamente
+- **Abril 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0F32LC5T8) - ¡Ya disponible!
+- **Mayo 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0F7FWCWQW) - ¡Ya disponible!
+- **Junio 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FBJP8KYT) - ¡Ya disponible!
+- **Julio 2025**: Próximamente
 - ... y una nueva edición cada mes
 
 *Haz de la sopa de letras tu ritual mensual. ¡Colecciónalas todas!*
