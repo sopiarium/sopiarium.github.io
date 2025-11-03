@@ -40,6 +40,29 @@ Serie especialmente diseñada para adultos y personas mayores con problemas de v
 
 ---
 
+## Sopas de Letras para Adultos - Edición Mensual
+
+**¡Tu ritual mensual de entretenimiento! 📅**
+
+¿Recuerdas cuando ibas al kiosco y comprabas tu libro de pasatiempos favorito? Revive esa experiencia con nuestra colección mensual. Cada mes, un nuevo volumen con 200 sopas de letras frescas y temáticas.
+
+**Características:**
+- 200 sopas de letras por edición
+- Publicación mensual (nueva edición cada mes)
+- Letra grande y diseño claro
+- Temas variados: cultura general, pasatiempos y palabras curiosas
+- 223 páginas de entretenimiento
+- Perfecto para adultos, seniors y amantes de los juegos de palabras
+
+**Ediciones disponibles:**
+- **Febrero 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0DYVFP5P8) - ¡Ya disponible!
+- **Marzo 2025**: Próximamente
+- ... y una nueva edición cada mes
+
+*Haz de la sopa de letras tu ritual mensual. ¡Colecciónalas todas!*
+
+---
+
 ## Otras Series
 
 *Próximamente más series disponibles*
