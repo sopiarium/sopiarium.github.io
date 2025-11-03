@@ -60,8 +60,13 @@ Serie especialmente diseñada para adultos y personas mayores con problemas de v
 - **Abril 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0F32LC5T8) - ¡Ya disponible!
 - **Mayo 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0F7FWCWQW) - ¡Ya disponible!
 - **Junio 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FBJP8KYT) - ¡Ya disponible!
-- **Julio 2025**: Próximamente
-- ... y una nueva edición cada mes
+- **Julio 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FGJLJ1SJ) - ¡Ya disponible!
+- **Agosto 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FLJNNYJQ) - ¡Ya disponible!
+- **Septiembre 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FP8KBNRG) - ¡Ya disponible!
+- **Octubre 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FTSMCMYJ) - ¡Ya disponible!
+- **Noviembre 2025**: [Ver en Amazon](https://www.amazon.es/dp/B0FYP5XPYR) - ¡Ya disponible!
+- **Diciembre 2025**: Próximamente
+- ... y nuevas ediciones cada mes
 
 *Haz de la sopa de letras tu ritual mensual. ¡Colecciónalas todas!*
 
