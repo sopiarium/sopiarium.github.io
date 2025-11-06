@@ -19,3 +19,7 @@ vendor/
 
 # Scripts locales con rutas privadas
 actualiza.sh
+new_post.sh
+
+# Notas internas y contenido privado
+proximo-contenido.txt
