@@ -16,3 +16,6 @@ vendor/
 
 # Logs
 *.log
+
+# Scripts locales con rutas privadas
+actualiza.sh
