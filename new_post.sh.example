@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# Script para crear nuevos posts de Jekyll con plantilla
+# INSTRUCCIONES:
+# 1. Copia este archivo como 'new_post.sh' (sin .example)
+# 2. Modifica la variable POST_TEMPLATE_PATH con la ruta a tu plantilla
+# 3. Dale permisos de ejecución: chmod +x new_post.sh
+# 4. Ejecuta: ./new_post.sh "Título del post"
+
+# ========== CONFIGURACIÓN ==========
+# Modifica esta ruta para apuntar a tu plantilla de post
+POST_TEMPLATE_PATH="/path/to/your/post_template.md"
+# ===================================
+
+if [ -z "$1" ]
+then
+    echo "Por favor, proporciona un título para el post."
+    echo "Uso: $0 \"Título del post\""
+    exit 1
+fi
+
+title="$1"
+date_with_time=$(date +"%Y-%m-%d %H:%M:%S %z")
+date_without_time=$(date +"%Y-%m-%d")
+filename="_posts/$date_without_time-$(echo $title | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g').markdown"
+
+# Verificar que existe la plantilla
+if [ ! -f "$POST_TEMPLATE_PATH" ]; then
+    echo "❌ ERROR: No se encuentra la plantilla en: $POST_TEMPLATE_PATH"
+    echo "Por favor, configura la variable POST_TEMPLATE_PATH en este script."
+    exit 1
+fi
+
+# Copiar plantilla y reemplazar variables
+cp "$POST_TEMPLATE_PATH" "$filename"
+sed -i.bak "s/Título del post/$title/; s/AAAA-MM-DD/$date_with_time/" "$filename"
+rm "$filename.bak"
+
+echo "Escribe el contenido del post y presiona Ctrl-D cuando termines:"
+content=$(</dev/stdin)
+echo "$content" >> "$filename"
+
+
+echo "Si has colocado imágenes en la carpeta /img éstas se añadirán como imagenes clicables, necesito que me escribas la URL hacia la que quieres que apunten las imágenes, es decir, a donde irán cuando se les haga click con el ratón encima:"
+echo ""
+echo "🚨🔴🚨 ¡Recuerda añadir los enlaces con el protocolo https://! 🔴🚨🔴"
+read image_url
+
+if [ ! -z "$image_url" ]
+then
+    echo "Añadiendo imágenes clicables..."
+    for image in img/*
+    do
+        if [ -f "$image" ]; then
+            image_name=$(basename "$image")
+            echo "Procesando imagen $image_name..."
+            echo "<br>[![Descripción de la imagen]({{ '/assets/images/$image_name' | absolute_url }}){: .image-link }]($image_url)<br>" >> "$filename"
+        fi
+    done
+fi
+
+echo "✅ Nuevo post creado: $filename"

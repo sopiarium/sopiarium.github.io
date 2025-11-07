@@ -1,0 +1,83 @@
+#!/bin/bash
+
+# Script de deployment para Jekyll -> GitHub Pages
+# Este script construye el sitio Jekyll y lo copia al repositorio de GitHub Pages
+#
+# INSTRUCCIONES:
+# 1. Copia este archivo como 'actualiza.sh' (sin .example)
+# 2. Modifica las variables JEKYLL_SOURCE_DIR y GITHUB_PAGES_DIR con tus rutas
+# 3. Dale permisos de ejecución: chmod +x actualiza.sh
+# 4. Ejecuta: ./actualiza.sh
+
+# ========== CONFIGURACIÓN ==========
+# Directorio donde está el código fuente de Jekyll (este proyecto)
+JEKYLL_SOURCE_DIR="/path/to/your/jekyll/project"
+
+# Directorio del repositorio GitHub Pages (username.github.io)
+GITHUB_PAGES_DIR="/path/to/your/username.github.io"
+# ===================================
+
+echo "================================================"
+echo "  Script de Deployment Jekyll -> GitHub Pages"
+echo "================================================"
+echo ""
+
+# Verificar que las rutas están configuradas
+if [ "$JEKYLL_SOURCE_DIR" = "/path/to/your/jekyll/project" ] || [ "$GITHUB_PAGES_DIR" = "/path/to/your/username.github.io" ]; then
+    echo "❌ ERROR: Por favor configura las rutas en este script antes de ejecutarlo."
+    echo ""
+    echo "Edita las variables:"
+    echo "  - JEKYLL_SOURCE_DIR: Ruta a tu proyecto Jekyll"
+    echo "  - GITHUB_PAGES_DIR: Ruta a tu repositorio username.github.io"
+    exit 1
+fi
+
+# Verificar que existen los directorios
+if [ ! -d "$JEKYLL_SOURCE_DIR" ]; then
+    echo "❌ ERROR: No existe el directorio de Jekyll: $JEKYLL_SOURCE_DIR"
+    exit 1
+fi
+
+if [ ! -d "$GITHUB_PAGES_DIR" ]; then
+    echo "❌ ERROR: No existe el directorio de GitHub Pages: $GITHUB_PAGES_DIR"
+    exit 1
+fi
+
+echo "📦 Paso 1: Construyendo sitio Jekyll..."
+cd "$JEKYLL_SOURCE_DIR"
+jekyll build
+
+if [ $? -ne 0 ]; then
+    echo "❌ ERROR: Falló la construcción de Jekyll"
+    exit 1
+fi
+
+echo ""
+echo "🧹 Paso 2: Limpiando directorio de GitHub Pages..."
+cd "$GITHUB_PAGES_DIR"
+rm -rf *
+
+echo ""
+echo "📋 Paso 3: Copiando archivos generados..."
+cd "$JEKYLL_SOURCE_DIR/_site"
+cp -rf * "$GITHUB_PAGES_DIR"
+
+echo ""
+echo "🗑️  Paso 4: Eliminando archivos que no deben subirse..."
+cd "$GITHUB_PAGES_DIR"
+rm -f actualiza.sh 2>/dev/null
+rm -f new_post.sh 2>/dev/null
+
+echo ""
+echo "📊 Paso 5: Mostrando estado de Git..."
+git status
+
+echo ""
+echo "✅ ¡Proceso completado!"
+echo ""
+echo "Próximos pasos manuales:"
+echo "  1. cd $GITHUB_PAGES_DIR"
+echo "  2. git add ."
+echo "  3. git commit -m \"Actualización del sitio\""
+echo "  4. git push origin main"
+echo ""
